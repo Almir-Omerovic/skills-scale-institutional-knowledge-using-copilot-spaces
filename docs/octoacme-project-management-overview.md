@@ -16,15 +16,23 @@ Applies to all cross-functional projects that deliver product features, services
 ## Core Roles
 - Project Manager (PM): coordinates delivery, schedules, risk, communications.
 - Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
+- Business Analyst (BA): translates business needs into requirements; facilitates alignment.
 - Developers: implement features, collaborate on design and testability.
+- UX/UI Designer: designs user interfaces and ensures accessibility and usability.
+- DevOps Engineer: builds and maintains CI/CD pipelines, environments, and delivery infrastructure.
 - QA/Testing: validate quality and acceptance criteria.
+- Technical Writer: creates and maintains documentation for users and the delivery team.
 - Stakeholders: provide inputs and approvals.
+
+See [Roles & Personas](octoacme-roles-and-personas.md) for full role definitions, and the [Role Interaction Matrix](octoacme-role-interaction-matrix.md) for a RACI view of ownership across artifacts and ceremonies.
 
 ## Key Artifacts
 - Project Charter / One-pager
 - Roadmap and Release Plan
 - Sprint/Iteration Backlog
-- Acceptance Criteria & Definition of Done
+- Acceptance Criteria & [Definition of Done](octoacme-definition-of-done.md)
+- [Role Interaction Matrix](octoacme-role-interaction-matrix.md)
+- [Handoff Checklist](octoacme-handoff-checklist.md) (design→dev, dev→QA, QA→release)
 - Risk Register
 - Retrospective notes and action items
 

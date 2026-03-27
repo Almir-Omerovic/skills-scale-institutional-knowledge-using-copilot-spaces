@@ -11,11 +11,13 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 ## Pre-release requirements
 - All acceptance criteria met and PRs merged
 - Passing CI and security scans
-- Release notes drafted
+- Release notes drafted and reviewed (see [Handoff Checklist: QA → Release](octoacme-handoff-checklist.md#qa--release-handoff))
 - Rollback / mitigation plan documented
 - Smoke tests prepared
+- [Definition of Done](octoacme-definition-of-done.md) confirmed for all items in the release
 
 ## Deployment Checklist
+- [ ] [QA → Release Handoff Checklist](octoacme-handoff-checklist.md#qa--release-handoff) completed
 - [ ] Deployment window scheduled (if needed)
 - [ ] Backup or snapshot (if applicable)
 - [ ] Deploy to staging and run smoke tests
