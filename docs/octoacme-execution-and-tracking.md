@@ -15,6 +15,8 @@ Guidance for managing day-to-day execution and tracking progress toward project 
   - Include issue link and acceptance criteria in PR description
   - Run automated tests and linting in CI before requesting review
   - Require at least one approval before merging (or team-defined policy)
+- Follow the [Handoff Checklist](octoacme-handoff-checklist.md) at key transitions: design→dev, dev→QA, QA→release
+- Verify work against the [Definition of Done](octoacme-definition-of-done.md) before moving items to Done
 
 ## Quality & Testing
 - Unit tests for new logic
@@ -38,3 +40,5 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - [ ] CI configured for tests and lint
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+- [ ] [Handoff Checklist](octoacme-handoff-checklist.md) followed at each phase transition
+- [ ] [Definition of Done](octoacme-definition-of-done.md) enforced before closing stories
